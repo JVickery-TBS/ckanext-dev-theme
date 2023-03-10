@@ -4,7 +4,7 @@ import ckan.plugins.toolkit as toolkit
 
 class DevelopmentTheme(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
-    
+
 
     # IConfigurer
 
