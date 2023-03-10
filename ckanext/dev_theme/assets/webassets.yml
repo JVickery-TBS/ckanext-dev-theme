@@ -1,0 +1,14 @@
+# dev_theme-js:
+#   filter: rjsmin
+#   output: ckanext-dev_theme/%(version)s-dev_theme.js
+#   contents:
+#     - js/dev_theme.js
+#   extra:
+#     preload:
+#       - base/main
+
+# dev_theme-css:
+#   filter: cssrewrite
+#   output: ckanext-dev_theme/%(version)s-dev_theme.css
+#   contents:
+#     - css/dev_theme.css
